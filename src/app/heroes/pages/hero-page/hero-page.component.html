@@ -1,1 +1,11 @@
-<p>hero-page works!</p>
+<div *ngIf="hero">
+    <h1>{{ hero.superhero }}</h1>
+    <p><strong>Publisher:</strong> {{ hero.publisher }}</p>
+    <p><strong>Alter Ego:</strong> {{ hero.alter_ego }}</p>
+    <p><strong>First Appearance:</strong> {{ hero.first_apparance }}</p>
+    <p><strong>Characters:</strong> {{ hero.character }}</p>
+  </div>
+  <div *ngIf="!hero">
+    <p>Loading...</p>
+  </div>
+  

@@ -10,15 +10,12 @@ import { HeroesService } from '../../../services/heroes.service';
   styleUrl: './list-page.component.css'
 })
 export class ListPageComponent  implements OnInit{
-public heroes: Hero[]=[];
+  public heroes: Hero[] = [];
 
-constructor(private heroesService: HeroesService){
+  constructor( private heroesService: HeroesService ) { }
 
-}
-  
-  ngOnInit() {
-    this.heroesService.getHeroes()
-    .subscribe(heroes=> this.heroes=heroes);
+  ngOnInit(): void {
+    this.heroesService.getHeroes().subscribe( heroes => this.heroes = heroes );
   }
 
 }

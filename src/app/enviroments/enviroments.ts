@@ -1,3 +1,3 @@
-export const enviroments={
-    baseUrl: 'http//lupitics.com'
+export const environments = {
+    baseURL: 'http://localhost:3000'
 }
