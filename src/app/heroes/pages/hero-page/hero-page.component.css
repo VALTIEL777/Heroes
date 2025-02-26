@@ -1,0 +1,11 @@
+.heroes-page {
+    background-image: url('/images/back1.gif'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    padding: 20px; 
+}
+.hero-card{
+    background-color: #AAB99A;
+}

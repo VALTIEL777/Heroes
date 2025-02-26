@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
@@ -11,3 +12,47 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
+.hero-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .hero-card {
+    max-width: 450px;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding-bottom: 10px;
+  }
+  
+  .hero-image {
+    
+    border-radius: 8px;
+  }
+  
+  .publisher-text {
+    font-weight: bold;
+    color: #3f51b5;
+  }
+  
+  .hero-chip {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+
+  #card{
+    background-color: #AAB99A;
+  }
+
+ 
+  
