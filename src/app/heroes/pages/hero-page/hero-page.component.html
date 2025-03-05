@@ -4,7 +4,7 @@
     <mat-card-title>{{ hero.superhero }}</mat-card-title>
     <mat-card-subtitle>{{ hero.publisher }}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image [src]="'images/heroes/' + hero.id + '.jpg'" [alt]="hero.superhero">
+  <img [src]="hero | heroImage" alt="imagen del heroe" mat-card-image>
 
   <mat-card-content>
     <p><strong>Alter Ego:</strong> {{ hero.alter_ego }}</p>

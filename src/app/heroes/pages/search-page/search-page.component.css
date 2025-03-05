@@ -1,0 +1,50 @@
+.hero-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+  }
+  
+  .hero-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  mat-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  mat-card-subtitle {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
+  mat-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  mat-card-content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 8px 0;
+  }
+  
+  mat-card-content p strong {
+    color: #ffcc00;
+  }
+  
+  @media (max-width: 600px) {
+    .hero-card {
+      max-width: 90%;
+    }
+  }
+  

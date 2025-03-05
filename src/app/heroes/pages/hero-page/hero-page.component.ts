@@ -22,7 +22,7 @@ export class HeroPageComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.params
       .pipe(
-        switchMap(({ id }) => this.heroesService.getById(id))
+        switchMap(({ id }) => this.heroesService.getHeroById(id))
       )
       .subscribe({
         next: (hero) => {

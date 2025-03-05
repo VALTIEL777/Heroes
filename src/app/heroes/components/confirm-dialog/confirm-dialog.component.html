@@ -1,0 +1,10 @@
+<!-- confirm-dialog.component.html -->
+<h1 mat-dialog-title>Confirmación</h1>
+<div mat-dialog-content>
+  <p>¿Estás seguro de que deseas realizar esta acción?</p>
+  <p>{{ data.superhero }} será afectado.</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button (click)="onConfirm()" cdkFocusInitial>Confirmar</button>
+</div>

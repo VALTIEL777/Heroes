@@ -13,7 +13,7 @@ export class HeroImagePipe implements PipeTransform {
       return 'images/no-image.png';
     }
     if(hero.alt_img) return hero.alt_img;
-      return `images/heroes/${hero.id}`;
+      return `images/heroes/${hero.id}.jpg`;
     }
 
 }

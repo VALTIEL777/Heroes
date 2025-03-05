@@ -32,7 +32,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   
   .publisher-text {
     font-weight: bold;
-    color: #3f51b5;
+    color: #fffffe;
   }
   
   .hero-chip {
@@ -55,4 +55,104 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   }
 
  
+  .hero-card {
+    max-width: 400px !important;
+    margin: 20px auto !important;
+    padding: 16px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    background: linear-gradient(200deg, #3a437d9b, #f7f7f7b7) !important;
+    color: white !important;
+  }
+  
+  .hero-card mat-card-title {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+  }
+  
+  .hero-card mat-card-subtitle {
+    font-size: 1rem !important;
+    opacity: 0.8 !important;
+  }
+  
+  .hero-card mat-card-image {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+    margin-top: 10px !important;
+  }
+  
+  .hero-card mat-card-content p {
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+    margin: 8px 0 !important;
+  }
+  
+  .hero-card mat-card-content p strong {
+    color: #141414 !important;
+  }
+  
+
+.fondo{
+  background-image: url('/images/back1.gif'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    padding: 20px; 
+}
+
+  .form-container {
+ 
+  }
+  
+  /* Título del formulario */
+  mat-card-title {
+    
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Diseño en dos columnas */
+  .form-columns {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  /* Columna de los campos */
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  /* Imagen a la derecha */
+  .image-container {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    max-width: 250px;
+    border-radius: 10px;
+  }
+  
+  /* Estilo de botones */
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 45%;
+  }
   
